@@ -14,4 +14,7 @@ i.addEventListener("click",(e) =>{
   i.addEventListener("touchstart",(e) =>{
     indicator(e.target)
   })
+  i.addEventListener("mousemove",(e) =>{
+    indicator(e.target)
+  })
 })
